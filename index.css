@@ -78,7 +78,14 @@ p {
 
 /* start of carousel*/
 
+header{
+  color:#4F3121;
+  font-size: 400%;
+}
 
-
+span{
+  color: #B2C1C2;
+  font-size:bold;
+}
 
 /* end of carousel*/
