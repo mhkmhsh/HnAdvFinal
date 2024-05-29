@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'SugarAndSpiceDemo'; /* Name that you will use to reference the font */
+  src: url('Sugar & Spice demo.ttf') format('truetype'); /* Path to the font file */
+}
+
+
 body {
   background-color: #E2D7C5;
   color: #4F3121;
@@ -10,8 +16,13 @@ body {
 }
 
 
-p {
-  font-family: "Handlee", cursive;
+h2 {
+ color:#4F3121;
+ font-family: 'SugarAndSpiceDemo', sans-serif; 
+ font-size: 300%;
+}
+.title {
+  background-color: #B2C1C2;
 }
 
 /* Button CSS */
@@ -25,11 +36,11 @@ p {
   border: 2px solid #4F3121;
   border-radius: 8px;
   box-sizing: border-box;
-  color: #111;
+  color: #4F3121;
   cursor: pointer;
   display: flex;
-  font-family: 'SugarSpice', sans-serif;
-  font-size: 16px;
+  font-family: 'SugarAndSpiceDemo', sans-serif; 
+  font-size: 200%;
   height: 48px;
   justify-content: center;
   line-height: 24px;
@@ -107,7 +118,7 @@ header {
   display: flex;
   align-items: center;
   height: 100%;
-  background-image: url('images/carousel1.jpg'); /* Default background */
+  background-image: url('Images/carousel1.jpg'); /* Default background */
 }
 
 .content {
@@ -134,23 +145,23 @@ header {
 
 @keyframes change {
   0% {
-    background-image: url('images/carousel1.jpg');
+    background-image: url('Images/carousel1.jpg');
    
   }
   20% {
-    background-image: url('images/carousel2.jpg');
+    background-image: url('Images/carousel2.jpg');
   }
   40% {
-    background-image: url('images/carousel3.jpg');
+    background-image: url('Images/carousel3.jpg');
   }
   60% {
-    background-image: url('images/carousel4.jpg');
+    background-image: url('Images/carousel4.jpg');
   }
   80% {
-    background-image: url('images/carousel5.jpeg');
+    background-image: url('Images/carousel5.jpeg');
   }
   100% {
-    background-image: url('images/carousel1.jpg');
+    background-image: url('Images/carousel1.jpg');
   }
 }
 
@@ -174,6 +185,7 @@ img{
 .buttonbar{
   background-color: #b2c1c250;
 justify-content: center;
+
 
 }
 .text{
