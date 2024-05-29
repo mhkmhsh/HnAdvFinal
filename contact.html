@@ -22,16 +22,100 @@
 </head>
 
 <body>
+  <!--Navbar Start M'kay-->
+  <nav class="navbar navbar-expand-lg bg-body-none">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Little Bird Toy Company!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Little Bird Toy Company
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="index.html">Home</a></li>
 
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" href="gallery.html">Our Products</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" href="cart.html">Checkout</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+
+              <li><a class="dropdown-item" href="contact.html">Contact us!</a></li>
+
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!--Navbar end M'kay-->
+<!--Stars-->
+<div class="rating">
+  <input type="radio" id="star5" name="rating" value="5"/>
+  <label for="star5"></label>
+  <input type="radio" id="star4" name="rating" value="4"/>
+  <label for="star4"></label>
+  <input type="radio" id="star3" name="rating" value="3"/>
+  <label for="star3"></label>
+  <input type="radio" id="star2" name="rating" value="2"/>
+  <label for="star2"></label>
+  <input type="radio" id="star1" name="rating" value="1"/>
+  <label for="star1"></label>
+</div>
+
+<!--end of Stars-->
     <!--start to Form-->
-    <form>  
-        Enter your first name  <br>  
-       <input type="text" name="username">  
+ .<div class="container">
+  <form action="action_page.php">
 
-       Enter your last name  <br>  
-       <input type="text" name="username">  
-     </form> 
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="great britain">Great Britain</option>
+      <option value="germany">Germany</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+ 
     <!--end of Form-->
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

@@ -2,90 +2,180 @@ body {
   background-color: #E2D7C5;
   color: #4F3121;
   font-family: "Wix Madefor Display", sans-serif;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   text-align: center;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  width: 100%;
 
 }
+
 
 p {
   font-family: "Handlee", cursive;
 }
 
-/* header */
-.title {
-  position: sticky;
-}
-
-/* end of header */
-
-#carousel {
-  width: 100vw;
-  height: 50vh;
-
-}
-
-/* BUTTON CSS */
+/* Button CSS */
 
 
-/*  BUTTON CSS TAKEN FROM GETSCANCSS.COM*/
-.button-89 {
-  --b: 3px;
-  /* border thickness */
-  --s: .45em;
-  /* size of the corner */
-  --color: #FF8215;
 
-  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
-  color: var(--color);
-  --_p: var(--s);
-  background:
-    conic-gradient(from 90deg at var(--b) var(--b), #0000 90deg, var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
-  transition: .3s linear, color 0s, background-color 0s;
-  outline: var(--b) solid #0000;
-  outline-offset: .6em;
+/* CSS */
+.button-56 {
+  align-items: center;
+  background-color: #FF8215;
+  border: 2px solid #4F3121;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'SugarSpice', sans-serif;
   font-size: 16px;
-
-  border: 0;
-
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
 
-.button-89:hover,
-.button-89:focus-visible {
-  --_p: 0px;
-  outline-color: var(--color);
-  outline-offset: .05em;
+.button-56:after {
+  background-color: #B2C1C2;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
 }
 
-.button-89:active {
-  background: var(--color);
-  color: #fff;
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #C2AE9B;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+/* Carousel Header */
+header {
+  color: #4F3121;
+  font-size: 400% bold;
+  width: 100%;
+  height:25%;
 }
 
 
-.button-89 {
-  font-weight: bold;
+
+/* Carousel */
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 25vh;
+  z-index: 1000;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: change 10s infinite ease-in-out;
 }
 
-/* start of carousel*/
-
-header{
-  color:#4F3121;
-  font-size: 400%;
+.Section_top {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-image: url('images/carousel1.jpg'); /* Default background */
 }
 
-span{
-  color: #B2C1C2;
+.content {
+  position: relative;
+  text-transform: uppercase;
+  width: 100%;
+  color: white;
+}
+
+.content .head {
+  width: 100%;
+}
+
+.content header {
+  font-size: 60px;
+  letter-spacing: 15px;
+}
+
+.content header span {
+  color: #FF8215;
   font-size:bold;
 }
 
-/* end of carousel*/
+
+@keyframes change {
+  0% {
+    background-image: url('images/carousel1.jpg');
+   
+  }
+  20% {
+    background-image: url('images/carousel2.jpg');
+  }
+  40% {
+    background-image: url('images/carousel3.jpg');
+  }
+  60% {
+    background-image: url('images/carousel4.jpg');
+  }
+  80% {
+    background-image: url('images/carousel5.jpeg');
+  }
+  100% {
+    background-image: url('images/carousel1.jpg');
+  }
+}
+
+.car{
+  width:100%;
+  height:25%;
+  
+}
+.cont{
+  height:100%;
+  width:100%;
+}
+
+img{
+ 
+  border-radius: 50%;
+  height:25%;
+  width:25%;
+}
+/*END OF CAROUSEL*/
+.buttonbar{
+  background-color: #b2c1c250;
+justify-content: center;
+
+}
+.text{
+  background-color: #c2ae9b83; 
+}
