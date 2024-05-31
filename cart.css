@@ -1,15 +1,58 @@
-body {
-    background-color: #E2D7C5;
-    color: #4F3121;
-    font-family: "Wix Madefor Display", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+body{
   
-  }
+  background-color: #E5DDD2;
+  color: #4F3121;
+  font-family: "Wix Madefor Display", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+
+}
+.button-56 {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  background-color: #f7a440;
+  color:#4F3121;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px #4F3121;
+}
+
+.button-56:hover {
+  background-color: #e07c24;
+  box-shadow: 0 6px 8px #4F3121;
+}
+
+/* Responsive logo with drop shadow */
+#logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px #4F3121);
+}
+
+/* Image with drop shadow */
+#intro {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px #4F3121;
+}
+
+/* Center content */
+.section-top {
+  background-color: #C2AE9B; 
+}
+
+
+#nav{
+  background-color: #B2C1C2;
+}

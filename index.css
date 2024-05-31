@@ -1,11 +1,13 @@
 @font-face {
-  font-family: 'SugarAndSpiceDemo'; /* Name that you will use to reference the font */
-  src: url('Sugar & Spice demo.ttf') format('truetype'); /* Path to the font file */
+  font-family: 'SugarAndSpiceDemo';
+  /* Name that you will use to reference the font */
+  src: url('Sugar & Spice demo.ttf') format('truetype');
+  /* Path to the font file */
 }
 
 
 body {
-  background-color: #E2D7C5;
+  background-color: #E5DDD2;
   color: #4F3121;
   font-family: "Wix Madefor Display", sans-serif;
   justify-content: center;
@@ -17,12 +19,14 @@ body {
 
 
 h2 {
- color:#4F3121;
- font-family: 'SugarAndSpiceDemo', sans-serif; 
- font-size: 300%;
+  color: #4F3121;
+  font-family: 'SugarAndSpiceDemo', sans-serif;
+  font-size: 200%;
 }
+
 .title {
   background-color: #B2C1C2;
+
 }
 
 /* Button CSS */
@@ -39,7 +43,7 @@ h2 {
   color: #4F3121;
   cursor: pointer;
   display: flex;
-  font-family: 'SugarAndSpiceDemo', sans-serif; 
+  font-family: 'SugarAndSpiceDemo', sans-serif;
   font-size: 200%;
   height: 48px;
   justify-content: center;
@@ -87,12 +91,13 @@ h2 {
     padding: 0 40px;
   }
 }
+
 /* Carousel Header */
 header {
   color: #4F3121;
   font-size: 400% bold;
   width: 100%;
-  height:25%;
+  height: 25%;
 }
 
 
@@ -118,7 +123,8 @@ header {
   display: flex;
   align-items: center;
   height: 100%;
-  background-image: url('Images/carousel1.jpg'); /* Default background */
+  background-image: url('Images/carousel1.jpg');
+  /* Default background */
 }
 
 .content {
@@ -139,55 +145,85 @@ header {
 
 .content header span {
   color: #FF8215;
-  font-size:bold;
+  font-size: bold;
 }
 
 
 @keyframes change {
   0% {
     background-image: url('Images/carousel1.jpg');
-   
+
   }
+
   20% {
     background-image: url('Images/carousel2.jpg');
   }
+
   40% {
     background-image: url('Images/carousel3.jpg');
   }
+
   60% {
     background-image: url('Images/carousel4.jpg');
   }
+
   80% {
     background-image: url('Images/carousel5.jpeg');
   }
+
   100% {
     background-image: url('Images/carousel1.jpg');
   }
 }
 
-.car{
-  width:100%;
-  height:25%;
-  
-}
-.cont{
-  height:100%;
-  width:100%;
+.car {
+  width: 100%;
+  height: 25%;
+
 }
 
-img{
- 
+.cont {
+  height: 100%;
+  width: 100%;
+}
+
+#logo {
+
   border-radius: 50%;
-  height:25%;
-  width:25%;
+  height: 25%;
+  width: 25%;
 }
+
 /*END OF CAROUSEL*/
-.buttonbar{
+.buttonbar {
   background-color: #b2c1c250;
-justify-content: center;
+  justify-content: center;
+}
 
+.text {
+  background-color: #c2ae9b83;
+}
+
+#intro {
+  border-radius: 10%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 }
-.text{
-  background-color: #c2ae9b83; 
+
+#footer {
+  background-color: #B2C1C2;
+}
+
+h5 {
+  color: #4F3121;
+  letter-spacing: normal;
+}
+
+#list {
+  font-size: larger;
+
+}
+
+#heads {
+  background-color: #B2C1C2;
 }
