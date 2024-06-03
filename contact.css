@@ -39,8 +39,8 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #E2D7C5;
-  color: #FF8215;
+  background-color: #FF8215;
+  color: #4F3121;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
@@ -91,4 +91,9 @@ input[type=submit]:hover {
 
 .rating input:checked + label:before {
   opacity: 1;
+}
+
+
+#footer {
+  background-color: #B2C1C2;
 }

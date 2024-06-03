@@ -5,9 +5,8 @@
   /* Path to the font file */
 }
 
-body{
-  
-  background-color: #E5DDD2;
+body {
+  background-image: linear-gradient(#C2AE9B, #E2D7C5,#E2D7C5);
   color: #4F3121;
   font-family: "Wix Madefor Display", sans-serif;
   justify-content: center;
