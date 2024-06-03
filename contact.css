@@ -1,19 +1,30 @@
-body {
-    background-color: #E5DDD2;
-    color: #4F3121;
-    font-family: "Wix Madefor Display", sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  
-  }
 
+@font-face {
+  font-family: 'SugarAndSpiceDemo';
+  /* Name that you will use to reference the font */
+  src: url('Sugar & Spice demo.ttf') format('truetype');
+  /* Path to the font file */
+}
+body{
+
+  background-color: #E5DDD2;
+  color: #4F3121;
+  font-family: "Wix Madefor Display", sans-serif;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+
+}
+#nav{
+  background-color: #B2C1C2;
+}
+
+#title{
+  font-family: 'SugarAndSpiceDemo', sans-serif; 
+  font-size: 200%;
+  color:#4F3121;
+}
   /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */

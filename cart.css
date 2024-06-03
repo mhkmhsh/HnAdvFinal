@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'SugarAndSpiceDemo';
+  /* Name that you will use to reference the font */
+  src: url('Sugar & Spice demo.ttf') format('truetype');
+  /* Path to the font file */
+}
+
 body{
   
   background-color: #E5DDD2;
@@ -35,7 +42,7 @@ body{
   display: block;
   margin: 0 auto;
   padding: 20px;
-  box-shadow: 0 4px 6px #4F3121);
+  box-shadow: 0 4px 6px #4F3121;
 }
 
 /* Image with drop shadow */
@@ -55,4 +62,10 @@ body{
 
 #nav{
   background-color: #B2C1C2;
+}
+
+#title{
+  font-family: 'SugarAndSpiceDemo', sans-serif; 
+  font-size: 200%;
+  color:#4F3121;
 }
