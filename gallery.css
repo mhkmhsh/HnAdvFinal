@@ -8,6 +8,7 @@
   body {
     background-image: linear-gradient(#C2AE9B, #E2D7C5,#E2D7C5);
     color: #4F3121;
+   
     font-family: "Wix Madefor Display", sans-serif;
     justify-content: center;
     align-items: center;
@@ -16,7 +17,8 @@
   
   }
 #nav{
-    background-color: #B2C1C2;
+    background-color: #B2C1C2; 
+  
   }
   
   #title{
@@ -41,11 +43,14 @@
     opacity:0.75;
     
   }
-  
+
   
   #container{
+    justify-content: center;
     width:100%;
-    background-image:linear-gradient(#363535,#545454,#646262,gray,#b8b7b7 );
+    margin: auto;
+    background-image:linear-gradient(#FF8215,#df9e65,#C2AE9B );
+    margin-top:3%;
     
     
   }
@@ -62,14 +67,15 @@
     line-height:36px;
     margin:0;
     position:relative;
-    font-weight:700;
+    font-weight:900;
     color:var(--bg);
     
   }
   .ia-container{
-    width:685px;
+    width:50%;
     margin:20px auto;
     overflow:hidden;
+    margin:auto;
     
   }
   .ia-container figure{

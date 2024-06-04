@@ -14,36 +14,43 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Wix+Madefor+Display:wght@400..800&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
 
     <!-- NAV -->
-    <div id="nav" >
-    <nav class="navbar navbar-expand-lg "id="nav">
-        <div class="container-fluid" id="nav">
-            <a class="navbar-brand" href="cart.html" id="title">Shopping Cart</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us!</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="gallery.html">Gallery</a>
-                  </li>
-                    
-             
-                </ul>
+    <div id="nav">
+        <nav class="navbar navbar-expand-lg " id="nav">
+            <div class="container-fluid" id="nav">
+                <a class="navbar-brand" href="cart.html" id="title">Shopping Cart</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us!</a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Shop Now!</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav></div>
+        </nav>
+    </div>
     <!--NAV -->
 
     <div class="container mt-4">
@@ -55,22 +62,34 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <div class="card-body">
+                    <div class="card-body" id="carts">
                         <h2 class="card-title">Shopping Cart</h2>
                         <ul class="list-group" id="cartItems">
                             <!-- Cart items will be dynamically added here -->
                         </ul>
-                        <a class="button-56" role="button" >Check Out!</a></div>
+                        <a class="button-56" role="button">Check Out!</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+  </div>
+
+        <!-- Footer -->
+  <footer class=" text-center p-3 mt-5 " id="footer">
+    <p>&copy; 2024 The Little Bird Toy Company. All rights reserved.</p>
+  </footer>
+  <!-- End of Footer -->
+  
 
     <script src="script.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

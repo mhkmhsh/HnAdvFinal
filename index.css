@@ -244,10 +244,9 @@ h3{
 .card{
   color:#4F3121; 
    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 }
-.card-img{
-  opacity: 60%;
-}
+
 .card-body{
   background-color: #E5DDD2;
   

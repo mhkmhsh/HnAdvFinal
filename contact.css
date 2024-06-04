@@ -81,7 +81,7 @@ input[type=submit]:hover {
   content: '';
   width: 20px;
   height: 20px;
-  background-image: url('glow.png'); /* Change 'glow.png' to your glowing star image */
+  background-image: url('glow.jpg'); /* Change 'glow.png' to your glowing star image */
   position: absolute;
   top: 0;
   left: 0;
