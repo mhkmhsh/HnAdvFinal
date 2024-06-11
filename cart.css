@@ -75,3 +75,13 @@ body {
 #carts{
   background-color:#E2D7C5;
 }
+
+
+
+.card {
+  transition: opacity 0.3s ease;
+}
+
+.card:hover {
+  opacity: 0.7; 
+}
