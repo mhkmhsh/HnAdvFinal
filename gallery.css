@@ -24,6 +24,11 @@
     background-color: #B2C1C2; 
   
   }
+  .container{
+    background-color: #E2D7C5;
+    border-radius: 10px;
+
+  }
   
   #title{
     font-family: 'SugarAndSpiceDemo', sans-serif; 
@@ -37,9 +42,6 @@ h1{
   background-color: #B2C1C2;
 }
   /* start of accordian*/
-  .accordion {
-    background-color: #B2C1C2;
-  }
 
 
 
