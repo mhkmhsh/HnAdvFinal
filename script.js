@@ -4,9 +4,9 @@ const items = [
   { id: 1, name: 'Train Set', price: 50, image: 'Images/train1.jpg', url: 'train.html' },
   { id: 2, name: 'Blocks', price: 20, image: 'Images/wooden-buddies.png', url: 'blockfriend.html' },
   { id: 3, name: 'Plane', price: 15, image: 'Images/plane1.jpg', url: 'plane.html' },
-  { id: 4, name: 'Car', price: 30, image: 'Images/car.png', url: 'car.html' },
+  { id: 4, name: 'Car', price: 30, image: 'Images/car2.jpg', url: 'car.html' },
   { id: 5, name: 'Boat', price: 25, image: 'Images/boat2.jpg', url: 'boat.html' },
-  { id: 6, name: 'Camera ', price: 15, image: 'Images/camera1.jpg', url: 'camera.html' },
+  { id: 6, name: 'Camera ', price: 15, image: 'Images/camera2.jpg', url: 'camera.html' },
   
   
 ];
